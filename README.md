@@ -11,4 +11,7 @@
  - Arrow Cluster
  - optional Split Spacebars
  - optional Split Backspace
+ - up to 52 keys
  - Open Source (duh)
+
+![Depiction of all possible keys of the Cheshire 50](./keyboard-layout.jpg)
