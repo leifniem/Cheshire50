@@ -1,0 +1,2633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Leif\Downloads\keeb\v1.kicad_sch</source>
+    <date>23.03.2023 21:32:43</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>v1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Key Matrix/" tstamps="/790bf86e-5902-459e-b18f-4b4268adeff0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>matrix.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Microcontroller/" tstamps="/0432086b-277f-4b29-a2c5-a58702182747/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>microcontroller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/USB Daughterboard/" tstamps="/2adea41c-89cc-4f4e-b6b2-050c67a47ddd/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>daughterboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef31df18-3b19-4191-a2b2-035a75f77a8b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae1e6fbf-3edb-4109-a4dc-55142ec38c05</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09ad0498-6fe9-4e9e-b25b-6494e72c39ef</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b865fa7d-4b3c-430a-b6a5-2b0816c3a186</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f83cfb18-5aa6-4609-9b2c-e39cbb867822</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22pF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20afc403-ee59-430e-b8e5-4835eea490e8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22pF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4306bea7-0e25-4fbd-a033-fd35e7cd94cf</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>672e935d-7174-4bb8-8be4-0ead0d1d9de1</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a66a25d3-2a50-4f50-bf4b-091d120d4996</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c1def30-f744-4c50-a2f8-847719608d06</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6e46ee7-1e9f-49d6-9322-7883a8b19c51</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26360416-54cc-40aa-9c1e-f2e1a59f480a</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>194d85b5-ed33-48af-99b5-77945a18ab82</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42b6f4be-8769-44e7-82ab-bcf0cd898e94</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7437656a-5a8a-4bfc-b046-9424ef7ad467</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c7e42fd-ef27-4514-9fed-bfebf5d2c2f5</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ec204a0-3b6a-4f9c-ac9f-2c7af996041f</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36c1ca2d-2b40-4aee-8c6a-0b4841ebc324</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f585e151-d966-4fe6-bb2f-32b5d5b20a3c</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7fa04f6-5fc2-4ceb-8f4a-ae9f932ba001</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>057eb292-33cf-48da-ac10-ee57869218c5</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40edb77d-96b4-42ef-a20f-b497067df4cc</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72c32792-45a7-47d1-8b26-88b2c377ef94</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>562b3175-2577-432c-96f3-a3e82950dc41</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d948ea7-67db-445d-91e8-eae905c1eede</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>960d4819-ab79-4993-9834-48dbea8fda21</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aefb7aa7-f5a8-47ff-8821-2eb13157524b</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41bf9035-3890-40fc-95e2-8ea4e7fdf114</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9e699d8-cac5-4843-a55a-65d740788005</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d534de6-700b-43ad-92f4-211c15f267a8</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7005726-3583-4e2d-b7ed-75ebae7bcdee</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c511a88-52df-4c13-b544-a99dbe8bf521</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5fe8a0e-7a4a-46fc-8613-af5a61213a85</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15f09aeb-4905-4087-94cd-6245c0aeb0c6</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>962daed3-8903-4c34-ac10-6cd6e7a46f35</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ffa5179-3dfb-4182-b7bf-4a782bf52fc0</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9613d455-82f7-4e00-965b-fd782f7f8549</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>377ea538-2a62-4af5-a2f9-68ca0812ea62</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>510761fb-cc70-4875-a60d-efac4d84e3e8</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a83a829-3647-4a40-831f-c4666bf64b90</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a467071-6a61-401b-811e-9391e83169b0</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78e9e810-3a5c-440e-8d84-480b9af96a49</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b849f13-d4eb-43c5-aab1-798608e2e981</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be1dc331-b9d4-4932-9ed6-1c99341215e9</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d165b9b4-6fb8-49a8-8e1e-fa0d89a598c5</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76cc78d6-fd1e-4b07-964c-196b93b2b8a5</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>519275f1-4e84-4fb8-8757-b359586b38c8</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7d81315-dce7-462f-bd64-ea0d903b8fc7</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a85176d-976d-44ab-93db-66feb661f469</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11d76f2f-152b-453e-a09a-a4b6b81a4897</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ee5b01a-9381-4fe2-a520-fbc605cd7d56</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f04efad-644d-4440-8852-9dc600cd50d8</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efd11a90-0321-44a0-94bc-281f5ca20bae</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90ce7500-be03-44a0-b561-dca9275d1a95</tstamps>
+    </comp>
+    <comp ref="D48">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97122797-b33a-41ba-9b76-a598c6e5b351</tstamps>
+    </comp>
+    <comp ref="D49">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f8df67f-0ba7-42c9-ade1-e22c6c4591ea</tstamps>
+    </comp>
+    <comp ref="D50">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd5828ce-97f4-4e87-8ced-bdc5f702c14e</tstamps>
+    </comp>
+    <comp ref="D51">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88d3a8cc-860b-4d58-ace7-aab091baf531</tstamps>
+    </comp>
+    <comp ref="D52">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e78904e-6d19-4a70-8b96-41962e8c3d59</tstamps>
+    </comp>
+    <comp ref="D53">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f822c5ed-653a-4dcf-977d-9b9e7774e428</tstamps>
+    </comp>
+    <comp ref="D54">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81c54dbf-655a-4ced-9ed6-c2238b9c6263</tstamps>
+    </comp>
+    <comp ref="D55">
+      <value>D_Small</value>
+      <footprint>Keebio-Parts.pretty-master:Diode</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Diode, small symbol"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47aeb5cd-b368-4d8b-b4d3-ae2ee6a54d38</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3950bf01-93b1-41c3-abbd-c3300a7c06b2</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d682cc5-50c1-4474-be6a-1f59f12477cd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c20f0118-dd33-4426-b74f-54d0b471670f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07eeb027-5818-48f2-9771-d525eb3194b8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2ab72b5-3769-4f97-b538-fb668e723857</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>22</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5df8bd36-b27f-418b-9251-365cea684720</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R_Small</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66b85c03-d1e2-499d-b355-71e9a271606b</tstamps>
+    </comp>
+    <comp ref="RES1">
+      <value>RotaryEncoder_Switch</value>
+      <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="ki_keywords" value="rotary switch encoder switch push button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb1beac7-7096-4601-8840-ecfb3721ee99</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a12ccfdf-b8cd-454f-8b5f-f19e0551fa4f</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47fda512-7f64-4193-97c3-40adbe590173</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1e7ab08-1c0b-4be9-ae85-655c0c469925</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59630ec2-3c6b-46e5-94bd-606ab2bf1c3a</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>752731df-32f0-4068-a115-97092ac982b9</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97efa15c-1dcc-4ba4-99c7-2b16acba8e6b</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23fb2d55-32ed-40fa-837d-802b4940e1bc</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4be99b8c-27bd-4459-8992-d7f38e73afa8</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3edd8f0a-0f53-4408-a58d-26a86cc21d3f</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22d48b37-7fab-4899-a666-6dcbce412bf8</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3dacc10-67d9-4c3e-a016-aa3c55ca7eb1</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>486832a6-7a86-4cfd-a19b-8a2a7499d300</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19f42350-551d-44ce-bc09-58222ffe3e9e</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c44fd3a6-d1ce-444c-9633-346c51b8c1a1</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c75c4af7-ddb4-4c25-9935-ec7d3bc33f18</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b08f9c4d-f1e9-4eda-81de-324f16015c59</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbca858d-9f4e-492d-8097-d891a1f8ce42</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>913d308c-3a3d-4765-aea7-cdeb6c23f143</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e647e0a-6afa-4876-b69d-3312948773e5</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8af95006-7d3b-4e94-a847-f11c2c1796b0</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b855c449-4b1a-4db3-87b3-781b0c1c6494</tstamps>
+    </comp>
+    <comp ref="SW22">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33dcdbb9-1489-43f7-8a05-005a490515df</tstamps>
+    </comp>
+    <comp ref="SW23">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59d3ce3d-c24e-4d39-929b-3a0a15fa5029</tstamps>
+    </comp>
+    <comp ref="SW24">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a2abe59-10f1-41fd-a7d6-9a8cf61feaee</tstamps>
+    </comp>
+    <comp ref="SW25">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ef1d6c6-cba5-478e-be8d-a2d15352d66d</tstamps>
+    </comp>
+    <comp ref="SW26">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>911517f9-08c6-4d32-ba2a-c9ae981d346a</tstamps>
+    </comp>
+    <comp ref="SW27">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8583866-5f37-4954-8dba-a178bf445253</tstamps>
+    </comp>
+    <comp ref="SW28">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2817415-c024-4a98-b1c7-da2c73e7ca62</tstamps>
+    </comp>
+    <comp ref="SW29">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f17821b-c6c6-434d-be58-4a7fce9b3371</tstamps>
+    </comp>
+    <comp ref="SW30">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be9bb3b6-fb93-4a46-b3f6-1cb00da7ad73</tstamps>
+    </comp>
+    <comp ref="SW31">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bd6b18e-7612-40a5-a352-5b0eb593e897</tstamps>
+    </comp>
+    <comp ref="SW32">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74a6a238-2059-49f5-9ad6-9cd1e065bba1</tstamps>
+    </comp>
+    <comp ref="SW33">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dfea15c-1891-4365-a935-09361a136f6a</tstamps>
+    </comp>
+    <comp ref="SW34">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45531c6a-49d9-43ca-a645-09438d1a1800</tstamps>
+    </comp>
+    <comp ref="SW35">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e594481a-9689-4660-b42e-57eca2e1dc97</tstamps>
+    </comp>
+    <comp ref="SW36">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f3b89bd-0701-41f3-8cc2-1acfd4893b0d</tstamps>
+    </comp>
+    <comp ref="SW37">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b996626-689f-466a-941e-0a13bcbe5c06</tstamps>
+    </comp>
+    <comp ref="SW38">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe546c12-b3f2-4e05-b56b-33dd7c788473</tstamps>
+    </comp>
+    <comp ref="SW39">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>489a0721-de53-4d62-9545-23bea8abaf8a</tstamps>
+    </comp>
+    <comp ref="SW40">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b56e89b8-8fa4-48f0-a533-72bd6ba9dd22</tstamps>
+    </comp>
+    <comp ref="SW41">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a5cf8f8-45e1-42de-b7be-14ae28816497</tstamps>
+    </comp>
+    <comp ref="SW42">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d737cd38-8bb6-40b0-89d6-7908a9202891</tstamps>
+    </comp>
+    <comp ref="SW43">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fed1916-10b5-4424-81f1-d28b8710f2fb</tstamps>
+    </comp>
+    <comp ref="SW44">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6ef78e3-5029-47dd-a7ab-605e3de20013</tstamps>
+    </comp>
+    <comp ref="SW45">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bb9c875-d3e9-47c6-bd45-3fd587090974</tstamps>
+    </comp>
+    <comp ref="SW46">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0793649e-4b91-4608-b7b5-9d4268b513eb</tstamps>
+    </comp>
+    <comp ref="SW47">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65dc43c0-81a9-4765-af19-0a9d469379e0</tstamps>
+    </comp>
+    <comp ref="SW48">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21f724a2-a095-4fec-8e40-531f641af0a9</tstamps>
+    </comp>
+    <comp ref="SW49">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41e0d7ad-cee4-4d1d-a135-48a9b4bdf94f</tstamps>
+    </comp>
+    <comp ref="SW50">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccadc623-404c-4600-ae3b-00dc01f78bd9</tstamps>
+    </comp>
+    <comp ref="SW51">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceb265dd-b322-4047-904a-19774c4b9f3a</tstamps>
+    </comp>
+    <comp ref="SW52">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cd92834-cbf0-405a-9dfc-af89d9e5cd22</tstamps>
+    </comp>
+    <comp ref="SW53">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0594214a-4a74-49a6-b67b-57bae8481f58</tstamps>
+    </comp>
+    <comp ref="SW54">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2de02751-25d2-4b08-8a8c-90ef0e288b6e</tstamps>
+    </comp>
+    <comp ref="SW55">
+      <value>MX_SW_HS</value>
+      <footprint>marbastlib-mx:SW_MX_HS_1u</footprint>
+      <libsource lib="marbastlib-mx" part="MX_SW_HS" description="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, normally open, two pins, 45° tilted"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94bf1ad5-1abc-47d7-b9bc-2e2a7939187a</tstamps>
+    </comp>
+    <comp ref="SW56">
+      <value>SW_Push</value>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e72ae47-51c0-40ec-93d2-200d39f547dc</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATMEGA32U4-AU</value>
+      <footprint>QFP80P1200X1200X120-44N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Atmel</field>
+      </fields>
+      <libsource lib="ATMEGA32U4-AU" part="ATMEGA32U4-AU" description=""/>
+      <property name="MANUFACTURER" value="Atmel"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53276df0-8aca-4dfc-8731-06080fa81403</tstamps>
+    </comp>
+    <comp ref="USB1">
+      <value>Molex-0548190589</value>
+      <libsource lib="random-keyboard-parts" part="Molex-0548190589" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ca7691b-3cd8-4fa0-8386-7ae739145ab3</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="v1.kicad_sch"/>
+      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ed1e9e9-9b6c-43a2-9a72-70567cec1e55</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ATMEGA32U4-AU" part="ATMEGA32U4-AU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA32U4-AU</field>
+        <field name="Footprint">QFP80P1200X1200X120-44N</field>
+        <field name="MANUFACTURER">Atmel</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="bidirectional"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="bidirectional"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="UGND" type="power_in"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="bidirectional"/>
+        <pin num="9" name="PB1" type="bidirectional"/>
+        <pin num="10" name="PB2" type="bidirectional"/>
+        <pin num="11" name="PB3" type="bidirectional"/>
+        <pin num="12" name="PB7" type="bidirectional"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="bidirectional"/>
+        <pin num="19" name="PD1" type="bidirectional"/>
+        <pin num="20" name="PD2" type="bidirectional"/>
+        <pin num="21" name="PD3" type="bidirectional"/>
+        <pin num="22" name="PD5" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="bidirectional"/>
+        <pin num="26" name="PD6" type="bidirectional"/>
+        <pin num="27" name="PD7" type="bidirectional"/>
+        <pin num="28" name="PB4" type="bidirectional"/>
+        <pin num="29" name="PB5" type="bidirectional"/>
+        <pin num="30" name="PB6" type="bidirectional"/>
+        <pin num="31" name="PC6" type="bidirectional"/>
+        <pin num="32" name="PC7" type="bidirectional"/>
+        <pin num="33" name="PE2" type="bidirectional"/>
+        <pin num="34" name="VCC" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="PF7" type="bidirectional"/>
+        <pin num="37" name="PF6" type="bidirectional"/>
+        <pin num="38" name="PF5" type="bidirectional"/>
+        <pin num="39" name="PF4" type="bidirectional"/>
+        <pin num="40" name="PF1" type="bidirectional"/>
+        <pin num="41" name="PF0" type="bidirectional"/>
+        <pin num="42" name="AREF" type="input"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="RotaryEncoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">RotaryEncoder_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="marbastlib-mx" part="MX_SW_HS">
+      <description>Push button switch, normally open, two pins, 45° tilted</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MX_SW_HS</field>
+        <field name="Footprint">marbastlib-mx:SW_MX_HS_1u</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="random-keyboard-parts" part="Molex-0548190589">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">Molex-0548190589</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="ID" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="D-" type="input"/>
+        <pin num="5" name="VBUS" type="input"/>
+        <pin num="6" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ATMEGA32U4-AU">
+      <uri>C:\Users\Leif\Documents\KiCad\7.0\symbols\ATMEGA32U4-AU.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="marbastlib-mx">
+      <uri>C:\Users\Leif\Documents\KiCad\7.0\symbols\marbastlib-mx.kicad_sym</uri>
+    </library>
+    <library logical="random-keyboard-parts">
+      <uri>C:\Users\Leif\Documents\KiCad\7.0\footprints\random-keyboard-parts.pretty\Schematic Library\random-keyboard-parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="UVCC" pintype="power_in"/>
+      <node ref="U1" pin="24" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="44" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="2" name="COL 0">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="COL 1">
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="COL 2">
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW45" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="COL 3">
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="COL 4">
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW47" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="COL 5">
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW34" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW48" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="COL 6">
+      <node ref="SW22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW49" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="COL 7">
+      <node ref="SW23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW50" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="COL 8">
+      <node ref="SW24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW51" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="COL 9">
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW38" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="COL 10">
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="COL 11">
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW53" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="COL 12">
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW54" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="COL 13">
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW42" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW55" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="COL 14">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="RES1" pin="S1" pinfunction="S1" pintype="passive"/>
+      <node ref="RES1" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PD6" pintype="bidirectional"/>
+      <node ref="U1" pin="39" pinfunction="PF4" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="D+">
+      <node ref="J2" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J2" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="USB1" pin="3" pinfunction="D+" pintype="input"/>
+    </net>
+    <net code="18" name="D-">
+      <node ref="J2" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J2" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="USB1" pin="4" pinfunction="D-" pintype="input"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J2" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RES1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="SW56" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="35" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="43" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="UGND" pintype="power_in"/>
+      <node ref="USB1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D15-A)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D16-A)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D17-A)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D18-A)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D19-A)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D20-A)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D21-A)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D22-A)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW22" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D23-A)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW23" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D24-A)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW24" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D25-A)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW25" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D26-A)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW26" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D27-A)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW27" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D28-A)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW28" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D29-A)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW29" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D30-A)">
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW30" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D31-A)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW31" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D32-A)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW32" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D33-A)">
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW33" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D34-A)">
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW34" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D35-A)">
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW35" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D36-A)">
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW36" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D37-A)">
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW37" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D38-A)">
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW38" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D39-A)">
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW39" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D40-A)">
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW40" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(D41-A)">
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW41" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D42-A)">
+      <node ref="D42" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW42" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D43-A)">
+      <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW43" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D44-A)">
+      <node ref="D44" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW44" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D45-A)">
+      <node ref="D45" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW45" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D46-A)">
+      <node ref="D46" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW46" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D47-A)">
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW47" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D48-A)">
+      <node ref="D48" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW48" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(D49-A)">
+      <node ref="D49" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW49" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(D50-A)">
+      <node ref="D50" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW50" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(D51-A)">
+      <node ref="D51" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW51" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(D52-A)">
+      <node ref="D52" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW52" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(D53-A)">
+      <node ref="D53" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW53" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(D54-A)">
+      <node ref="D54" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW54" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(D55-A)">
+      <node ref="D55" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW55" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(J1-GND-PadA1)">
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(J1-VBUS-PadA4)">
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(J2-VBUS-PadA4)">
+      <node ref="J2" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(U1-D+)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="Net-(U1-D-)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="Net-(U1-PE2)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="PE2" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="Net-(U1-UCAP)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="UCAP" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(U1-XTAL2)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="XTAL2" pintype="output"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(U1-~{RESET})">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW56" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="84" name="RES1 A">
+      <node ref="RES1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="PF1" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="RES1 B">
+      <node ref="RES1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="PF0" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="ROW 1">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PF5" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="ROW 2">
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D42" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PF6" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="ROW 3">
+      <node ref="D43" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D44" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D45" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D46" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D48" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D49" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D50" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D51" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D52" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D53" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D54" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D55" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PF7" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="VCC">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="USB1" pin="5" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="90" name="XTAL1">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="XTAL1" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(J1-CC1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(J1-CC2-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(J1-D+-PadA6)">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(J1-D+-PadB6)">
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(J1-D--PadA7)">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="unconnected-(J1-D--PadB7)">
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(J1-SHIELD-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="100" name="unconnected-(J2-CC1-PadA5)">
+      <node ref="J2" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(J2-CC2-PadB5)">
+      <node ref="J2" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="unconnected-(J2-SBU1-PadA8)">
+      <node ref="J2" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="unconnected-(J2-SBU2-PadB8)">
+      <node ref="J2" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(J2-SHIELD-PadS1)">
+      <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="105" name="unconnected-(U1-AREF-Pad42)">
+      <node ref="U1" pin="42" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="106" name="unconnected-(U1-PC6-Pad31)">
+      <node ref="U1" pin="31" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="unconnected-(U1-PC7-Pad32)">
+      <node ref="U1" pin="32" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="108" name="unconnected-(U1-PD7-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PD7" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="unconnected-(U1-PE6-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PE6" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="unconnected-(USB1-ID-Pad2)">
+      <node ref="USB1" pin="2" pinfunction="ID" pintype="input"/>
+    </net>
+    <net code="111" name="unconnected-(USB1-SHIELD-Pad6)">
+      <node ref="USB1" pin="6" pinfunction="SHIELD" pintype="input"/>
+    </net>
+  </nets>
+</export>
