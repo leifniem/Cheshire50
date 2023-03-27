@@ -1,4 +1,4 @@
-# Cheshire 50
+# Cheshire 50 - WIP!!!
 #### 50% Alice / Arisu style keyboard
 
 ---
